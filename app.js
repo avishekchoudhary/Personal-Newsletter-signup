@@ -36,7 +36,7 @@ app.post("/", function(req, res) {
 const url = process.env.API_URL;
   const options = {
     method: "post",
-    auth: process.env.MAIL_AUTH
+    auth: process.env.MAIL_AUTH // add your authorisation key for the api
   };
 
 
